@@ -46,7 +46,7 @@ st.set_page_config(page_title="Power Transfer", page_icon="⚙️", layout="wide
 #================================================================================================================================================
 st.sidebar.markdown("## Topic One：Power Reciprocity")
 pic = Image.open('views/DC.jpg')
-st.sidebar.image(pic, caption='±800kV JianSu UHVDC',use_column_width=True)
+st.sidebar.image(pic, caption='±800kV JianSu UHVDC',use_container_width=True)
 
 
 if "counter" not in st.session_state:
