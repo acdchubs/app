@@ -108,16 +108,10 @@ st.markdown(header_html, unsafe_allow_html=True)
 #///////////////////////////////////////////////////////////////////////////////////////////////////
 st.subheader('')
 
-
-
-import tkinter as tk
-from tkinter import filedialog
-
 with st.expander("**Introduction to JianSu UHVDC project**", True):
   introA_text = st.markdown(open("views/introA.md",encoding='utf-8').read(),unsafe_allow_html=True)
   st.image("views/path.jpg",caption = 'JianSu UHVDC passes through 5 provinces and cities of SiChuan, ChongQing, HuBei, AnHui and JiangSu, with a total length of 2,080 km', use_container_width = True)  
   introB_text = st.markdown(open("views/introB.md",encoding='utf-8').read(),unsafe_allow_html=True)
-  icon="🔥"
 
 with st.expander("Background of power reciprocity application", True):
   transA_text = st.markdown(open("views/transA.md",encoding='utf-8').read(),unsafe_allow_html=True)
