@@ -113,13 +113,9 @@ st.subheader('')
 import tkinter as tk
 from tkinter import filedialog
 
-root = tk.Tk()
-root.withdraw()
-
-
 with st.expander("**Introduction to JianSu UHVDC project**", True):
   introA_text = st.markdown(open("views/introA.md",encoding='utf-8').read(),unsafe_allow_html=True)
-  st.image("views/path.jpg",caption = 'JianSu UHVDC passes through 5 provinces and cities of SiChuan, ChongQing, HuBei, AnHui and JiangSu, with a total length of 2,080 km', use_column_width = True)  
+  st.image("views/path.jpg",caption = 'JianSu UHVDC passes through 5 provinces and cities of SiChuan, ChongQing, HuBei, AnHui and JiangSu, with a total length of 2,080 km', use_container_width = True)  
   introB_text = st.markdown(open("views/introB.md",encoding='utf-8').read(),unsafe_allow_html=True)
   icon="🔥"
 
